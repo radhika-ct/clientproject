@@ -2,7 +2,7 @@
   tasks:
   - name: create acontent file
     copy:
-      dest: "/home/ansadmin/sample.txt"
+      dest: "/etc/ansible/sample.txt"
       Content:
         - Radhika
         - chandrika
