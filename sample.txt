@@ -1,0 +1,8 @@
+- hosts: all
+  tasks:
+  - name: create acontent file
+    copy:
+      dest: "/home/ansadmin/sample.txt"
+      Content:
+        - Radhika
+        - chandrika
