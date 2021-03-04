@@ -1,0 +1,10 @@
+---
+- hosts: remote
+  tasks:
+  - name: create a new file
+  file:
+    path: /user/bin/ansible
+    state:touch
+    content:
+     -radhika gali
+---
